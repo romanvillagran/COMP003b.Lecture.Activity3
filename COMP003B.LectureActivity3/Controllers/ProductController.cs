@@ -6,7 +6,7 @@ namespace COMP003B.LectureActivity3.Controllers
     public class ProductController : Controller
     {
         [HttpGet("create")]
-        public IActionResult Creaate()
+        public IActionResult Create()
         {
             return View();
         }

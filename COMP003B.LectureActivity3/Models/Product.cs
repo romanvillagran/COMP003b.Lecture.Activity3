@@ -9,7 +9,7 @@ namespace COMP003B.LectureActivity3.Models
         [StringLength(100)]
         public string Name { get; set; }
 
-        [Required]
+        [Range(0.01, 10000)]
         public decimal Price { get; set; }
 
         [Required]

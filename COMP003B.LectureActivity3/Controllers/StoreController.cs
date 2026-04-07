@@ -4,7 +4,7 @@ namespace COMP003B.LectureActivity3.Controllers
     [Route("store")]
     public class StoreController : Controller
     {
-        [Route("products/{id:int")]
+        [Route("products/{id:int}")]
         public IActionResult ViewProduct(int id)
         {
             return View();

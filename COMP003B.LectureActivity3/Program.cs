@@ -37,6 +37,7 @@ namespace COMP003B.LectureActivity3
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
             app.Run();
+
         }
     }
 }
